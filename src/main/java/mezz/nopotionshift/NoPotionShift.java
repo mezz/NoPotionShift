@@ -8,10 +8,9 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod(
-		modid = "NoPotionShift",
+		modid = "nopotionshift",
 		version = "@VERSION@",
-		acceptedMinecraftVersions = "[1.9,1.10)",
-		dependencies = "required-after:Forge@[12.16.0.1859,);",
+		acceptedMinecraftVersions = "[1.10,1.12]",
 		clientSideOnly = true
 )
 public class NoPotionShift {
