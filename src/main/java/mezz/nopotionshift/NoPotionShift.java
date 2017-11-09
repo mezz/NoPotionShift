@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod(
 		modid = "nopotionshift",
 		version = "@VERSION@",
-		acceptedMinecraftVersions = "[1.10,1.12]",
+		acceptedMinecraftVersions = "[1.10,)",
 		clientSideOnly = true
 )
 public class NoPotionShift {
