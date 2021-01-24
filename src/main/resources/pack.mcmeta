@@ -1,5 +1,6 @@
 {
-    "pack": {
-        "description": "No Potion Shift resources",
-        "pack_format": 4    }
+   "pack":{
+      "pack_format": 6,
+      "description": "No Potion Shift resources"
+   }
 }

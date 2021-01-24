@@ -1,5 +1,6 @@
 modLoader="javafml"
-loaderVersion="[28,)"
+loaderVersion="[33,)"
+license="MIT"
 issueTrackerURL="https://github.com/mezz/NoPotionShift/issues"
 [[mods]]
 modId="nopotionshift"
@@ -11,6 +12,6 @@ description='''Stops potion effects from moving guis to the right.'''
 [[dependencies.nopotionshift]]
     modId="forge"
     mandatory=true
-    versionRange="[28,)"
+    versionRange="[33,)"
     ordering="NONE"
     side="BOTH"
