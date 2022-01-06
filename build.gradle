@@ -5,7 +5,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath group: "net.minecraftforge.gradle", name: "ForgeGradle", version: "3.+", changing: true
+        classpath group: "net.minecraftforge.gradle", name: "ForgeGradle", version: "5.1.+", changing: true
     }
 }
 apply plugin: "net.minecraftforge.gradle"
@@ -24,7 +24,7 @@ dependencies {
 }
 
 minecraft {
-    mappings channel: "snapshot", version: project.mcp_mappings
+    mappings channel: "official", version: project.mcversion
 
     runs {
         client {
